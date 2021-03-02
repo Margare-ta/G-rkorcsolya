@@ -1,11 +1,11 @@
-h1{
+h1, .hi{
     text-align: center;
     text-decoration: underline;
 }
 
 .nagy{
     background-image: linear-gradient(rgb(54, 48, 48), rgb(161, 26, 26),  rgb(180, 155, 155), rgb(54, 48, 48));
-    height: 800px;
+    height: 810px;
     width: 900px;
     margin: auto;
     box-shadow:  8px 8px 4px rgba(144, 189, 201, 0.795);
@@ -27,7 +27,7 @@ a:link, a:visited {
     color: rgb(161, 155, 155);
 }
 
-.color2{
+.color2, .color5{
     color: rgb(87, 31, 31);
 }
 
@@ -42,9 +42,7 @@ video{
     height: 200px;
 }
 
-ul #horizontal li{
-    display:inline;
-}
+
 
 table, td, th{
     border: 2px solid rgb(0, 0, 0);
@@ -54,8 +52,8 @@ table, td, th{
 
 th{
     font-family: fantasy;
-    font-style: italic;
     font-weight: bolder;
+    padding: 5px;
 }
 
 @font-face {
@@ -87,4 +85,151 @@ th{
 
 body{
     background-color: rgba(14, 218, 218, 0.315);
+}
+
+.elso, .masodik{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+thead{
+    font-variant: small-caps;
+}
+
+.sor{
+    height: 100px;
+    margin-left: 45px;
+}
+
+.sor2{
+    width: 200px;
+}
+
+.sor3{
+    height: 100px;
+}
+
+.agresszív{
+    height: 100px;
+    margin-left: 35px;
+}
+
+.mat{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.speed{
+    margin-left: 12px;
+    height: 100px;
+}
+
+.also1{
+    float: right;
+    clear: both;
+    width: 650px;
+  
+    margin-bottom: 0%;
+}
+
+.also2{
+    float: right;
+    clear: both;
+    width: 520px;
+}
+
+.city1{
+    height: 250px;
+    float: right;
+    clear: both;
+    margin-right: 60px;
+}
+
+.city2{
+    height: 250px;
+    float: left;
+    margin-left: 60px;
+}
+
+img{
+    box-shadow:  5px 5px 4px rgba(95, 11, 11, 0.795);
+}
+
+.fam{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    text-align: justify;
+}
+
+.city3, .city4{
+    height: 234px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.city3{
+    margin-left: 60px;
+}
+
+.eee{
+    width: 150px;
+}
+
+.masodik{
+    margin-top: 20px;
+}
+
+#bod{
+    font-family: monospace;
+    color: rgb(141, 45, 45);
+}
+
+.szi{
+    font-weight: bolder;
+    font-size: 140%;
+    width: 490px;
+    margin-left: 300px;
+}
+
+.na{
+    font-family: inherit;
+    font-weight: bolder;
+    font-variant: small-caps;
+    font-size: 340%;
+}
+
+.hi{
+    float: left;
+    clear: both;
+}
+
+.color5{
+    float: right;
+    clear: both;
+    font-size: 120%;
+    margin-right: 50px;
+}
+
+.f{
+    float: right;
+    clear: both;
+    font-size: 100%;
+    margin-right: 500px;
+}
+
+.ii{
+    width: 320px;
+    float: right;
+    clear: both;
+    margin-right: 280px;
+}
+
+.t{
+    height: 190px;
+    margin-left: 20px;
+}
+
+.haf{
+    height: 51px;
 }

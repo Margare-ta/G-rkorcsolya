@@ -5,9 +5,7 @@ h1, .hi{
 
 .nagy{
     background-image: linear-gradient(rgb(54, 48, 48), rgb(161, 26, 26),  rgb(180, 155, 155), rgb(54, 48, 48));
-    
     margin: auto;
-    
     margin-top: 50px;
     margin-bottom: 70px;
 }
@@ -110,11 +108,6 @@ thead{
     margin-left: 35px;
 }
 
-.mat{
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 .speed{
     margin-left: 12px;
